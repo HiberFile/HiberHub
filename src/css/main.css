@@ -29,15 +29,12 @@ html, body {
     }
 }
 
-.hiberfile-logo {
-    background-image: url("../img/hiberfile.png");
-    background-size: 85%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 @media (min-width: 768px){
     .hiberfile-logo {
+       background-image: url("../img/hiberfile.png");
+       background-size: 85%;
+       background-repeat: no-repeat;
+       background-position: center;
        height: 20%;
        width: 20%; 
     }
@@ -45,6 +42,10 @@ html, body {
 
 @media (max-width: 768px){
     .hiberfile-logo {
+       background-image: url("../img/hiberfile.png");
+       background-size: 85%;
+       background-repeat: no-repeat;
+       background-position: center;
        height: 80%;
        width: 80%; 
     }
@@ -58,15 +59,12 @@ html, body {
     background: linear-gradient(to bottom right, #32B1D8, #3156D8);
 }
 
-.hiberlink-logo {
-    background-image: url("../img/hiberlink.png");
-    background-size: 85%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 @media (min-width: 768px){
     .hiberlink-logo {
+       background-image: url("../img/hiberlink.png");
+       background-size: 85%;
+       background-repeat: no-repeat;
+       background-position: center;
        height: 20%;
        width: 20%; 
     }
@@ -74,6 +72,10 @@ html, body {
 
 @media (max-width: 768px){
     .hiberlink-logo {
+       background-image: url("../img/hiberlink.png");
+       background-size: 85%;
+       background-repeat: no-repeat;
+       background-position: center;
        height: 80%;
        width: 80%; 
     }
