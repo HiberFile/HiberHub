@@ -32,22 +32,22 @@ html, body {
 @media (min-width: 768px){
     .hiberfile-logo {
        background-image: url("../img/hiberfile.png");
-       background-size: 85%;
+       background-size: 55%;
        background-repeat: no-repeat;
        background-position: center;
-       height: 10%;
-       width: 10%; 
+       height: 100%;
+       width: 100%; 
     }
 }
 
 @media (max-width: 768px){
     .hiberfile-logo {
        background-image: url("../img/hiberfile.png");
-       background-size: 85%;
+       background-size: 65%;
        background-repeat: no-repeat;
        background-position: center;
-       height: 70%;
-       width: 70%; 
+       height: 100%;
+       width: 100%; 
     }
 }
 
@@ -62,22 +62,22 @@ html, body {
 @media (min-width: 768px){
     .hiberlink-logo {
        background-image: url("../img/hiberlink.png");
-       background-size: 85%;
+       background-size: 55%;
        background-repeat: no-repeat;
        background-position: center;
-       height: 10%;
-       width: 10%; 
+       height: 100%;
+       width: 100%; 
     }
 }
 
 @media (max-width: 768px){
     .hiberlink-logo {
        background-image: url("../img/hiberlink.png");
-       background-size: 85%;
+       background-size: 65%;
        background-repeat: no-repeat;
        background-position: center;
-       height: 70%;
-       width: 70%; 
+       height: 100%;
+       width: 100%; 
     }
 }
 
