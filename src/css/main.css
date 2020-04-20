@@ -4,6 +4,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    overflow: hidden /* To prevent scrolling on iphones */
 }
 
 .bottom {
@@ -30,10 +31,11 @@ html, body {
 
 .hiberfile-logo {
     background-image: url("../img/hiberfile.png");
-    height: 100%;
-    width: 100%;
+    background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100%;
+    width: 100%;
 }
 
 .right{
@@ -46,10 +48,11 @@ html, body {
 
 .hiberlink-logo {
     background-image: url("../img/hiberlink.png");
-    height: 100%;
-    width: 100%;
+    background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100%;
+    width: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
