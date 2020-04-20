@@ -32,7 +32,7 @@ html, body {
 @media (min-width: 768px){
     .hiberfile-logo {
        background-image: url("../img/hiberfile.png");
-       background-size: 55%;
+       background-size: 25%;
        background-repeat: no-repeat;
        background-position: center;
        height: 100%;
@@ -62,7 +62,7 @@ html, body {
 @media (min-width: 768px){
     .hiberlink-logo {
        background-image: url("../img/hiberlink.png");
-       background-size: 55%;
+       background-size: 25%;
        background-repeat: no-repeat;
        background-position: center;
        height: 100%;
