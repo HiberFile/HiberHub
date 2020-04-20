@@ -1,0 +1,85 @@
+/* HiberHub's main.css */
+/* Under GPL-3.0 */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.bottom {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+.left {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #E45686, #9642E9);
+}
+
+@media (prefers-color-scheme: dark) {
+    .left {
+        background: linear-gradient(to bottom right, #272727, #3f3f3f);
+    }
+}
+
+.hiberfile-logo {
+    background-image: url("../img/hiberfile.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right{
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #32B1D8, #3156D8);
+}
+
+.hiberlink-logo {
+    background-image: url("../img/hiberlink.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    .right {
+        background: linear-gradient(to bottom right, #101010,  #272727);
+    }
+    .hiberlink-logo {
+        background-image: url("../img/hiberlink-dark.png");
+    }
+}
+
+.copyleft {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
