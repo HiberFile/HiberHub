@@ -34,8 +34,20 @@ html, body {
     background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100%;
-    width: 100%;
+}
+
+@media (min-width: 768px){
+    .hiberfile-logo {
+       height: 50%;
+       width: 50%; 
+    }
+}
+
+@media (max-width: 768px){
+    .hiberfile-logo {
+       height: 90%;
+       width: 90%; 
+    }
 }
 
 .right{
